@@ -1,0 +1,53 @@
+.new-message-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: #fcde67;
+    width: 100%;
+    grid-gap: 15px;
+}
+
+.file-input {
+    display: none;
+}
+
+.new-message-input {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.send-message {
+    background: #3498db;
+    color: #fff;
+    width: 50%;
+    border: none;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.send-message:hover {
+    background: #2980b9;
+}
+
+.send-message:active {
+    background: #2980b9;
+}
+
+.send-picture {
+    background: #2ecc71;
+    color: #fff;
+    width: 50%;
+    border: none;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.send-picture:hover {
+    background: #27ae60;
+}
+
+.send-picture:active {
+    background: #27ae60;
+}
